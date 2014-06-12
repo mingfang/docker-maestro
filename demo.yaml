@@ -1,0 +1,13 @@
+name: demo
+
+ships:
+  host1: {ip: localhost}
+
+services:
+  echo:
+    image: ubuntu
+    instances:
+      echo1:
+        ship: host1
+        cmd: echo "hello world"
+ 

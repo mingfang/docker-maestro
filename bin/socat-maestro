@@ -1,0 +1,2 @@
+#!/bin/bash --debug 
+(/usr/bin/socat TCP-LISTEN:4243,reuseaddr,fork UNIX-CLIENT:/var/run/docker.sock)&  /usr/local/bin/maestro $@ 
