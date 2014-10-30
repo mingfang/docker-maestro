@@ -12,11 +12,11 @@ To run MaestroNG easily by wrapping it along with all it's dependencies inside D
 
 ##Using
 1. Create a MaestroNG YAML file
-2. Run using ```./m -f /docker/<your yaml file>```
+2. Run using ```./m -f /docker/<your yaml file> start```
 
 ##Demo
 The demo.yaml will run ```echo "hello world"``` using the standard ubuntu image.
-Run the demo using ```./m -f /docker/demo.yaml```.
+Run the demo using ```./m -f /docker/demo.yaml start```.
 The container will run and quickly exit.
 To see the output do a ```docker logs <id>```
 
