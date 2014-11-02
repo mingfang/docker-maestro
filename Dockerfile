@@ -8,5 +8,3 @@ RUN pip install docker-py
 RUN pip install git+git://github.com/signalfuse/maestro-ng
 
 ADD bin/socat-maestro /
-ENTRYPOINT ["/socat-maestro"]
-CMD ["-h"]
